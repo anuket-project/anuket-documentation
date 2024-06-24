@@ -83,20 +83,10 @@ templates_path = ['_templates']
 
 html_show_sourcelink = False
 html_theme_options = {
-    'nav_title': '',
-     # Set the color and the accent color
-    'color_primary': 'blue-grey,',
-    'color_accent': 'white',
-    # Visible levels of the global TOC; -1 means unlimited
-    'globaltoc_depth': 0,
     # If False, expand all TOC entries
     'globaltoc_collapse': False,
     # If True, show hidden TOC entries
     'globaltoc_includehidden': False,
-    'base_url': "https://docs.anuket.io/",
-    'repo_url': 'https://gerrit.opnfv.org/',
-    'repo_name': '',
-    'repo_type': 'github',
 }
 
 # Inverse png
