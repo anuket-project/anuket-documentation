@@ -1,4 +1,4 @@
-﻿# Anuket Documentation
+# Anuket Documentation
 
 Welcome to the Anuket Project Documentation repository. This repository contains the source files for https://docs.anuket.io/
 
@@ -22,13 +22,35 @@ python --version
 pip --version
 ```
 
-### Install Sphinx
+### Install Tox
 
-Install Sphinx using pip:
+Ensure Python and pip are installed and accessible in your environment.
 
 ```bash
-pip install sphinx
+pip install tox
 ```
+
+### Verify Tox Installation
+
+After installing tox, you should verify that it was installed correctly:
+
+```bash
+tox --version
+```
+
+If tox --version does not work, you may need to add the installation directory to your system's PATH. For example:
+
+- On Windows, you might need to add the Scripts directory to your PATH. Usually, it's located at C:\Users\<YourUsername>\AppData\Local\Programs\Python\Python<version>\Scripts\.
+
+- On Linux/macOS, it might be in a directory like ~/.local/bin.
+
+To add it to your PATH temporarily in the current session, you can use:
+
+```bash
+export PATH=$PATH:~/.local/bin  # Linux/macOS
+```
+
+For Windows, you can modify the PATH environment variable via the System Properties -> Environment Variables dialog.
 
 ## Navigate to the Documentation Directory
 
@@ -40,10 +62,10 @@ cd docs
 
 ## Building the Documentation
 
-To build the documentation locally, you can use the following commands. This example assumes you are using Sphinx:
+To build the documentation locally, you can use the following commands.
 
 ```bash
-python -m sphinx -b html . _build/html
+tox -e docs
 ```
 
 ## Open the Generated HTML
