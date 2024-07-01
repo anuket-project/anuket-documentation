@@ -52,13 +52,7 @@ export PATH=$PATH:~/.local/bin  # Linux/macOS
 
 For Windows, you can modify the PATH environment variable via the System Properties -> Environment Variables dialog.
 
-## Navigate to the Documentation Directory
 
-Change to the directory containing your conf.py file and other source files.
-
-```bash
-cd docs
-```
 
 ## Building the Documentation
 
