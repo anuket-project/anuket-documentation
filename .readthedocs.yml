@@ -3,6 +3,11 @@
 ---
 version: 2
 
+build:
+  os: ubuntu-24.04
+  tools:
+    python: "3.10"
+
 sphinx:
   configuration: docs/conf.py
 
@@ -10,6 +15,5 @@ submodules:
   exclude: all
 
 python:
-  version: 3.7
   install:
     - requirements: docs/requirements.txt
