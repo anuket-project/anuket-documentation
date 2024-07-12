@@ -23,5 +23,5 @@ jobs:
         with:
           name: documentation-html
           path: |
-          docs/_build
+          docs/_build:
             
