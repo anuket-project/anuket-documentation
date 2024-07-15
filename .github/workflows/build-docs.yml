@@ -1,0 +1,40 @@
+name: "Documentation Pull Request Docs Check"
+on:
+  pull_request:
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+        
+      - name: Install prerequisites
+        run: |
+          sudo apt-get --allow-releaseinfo-change update -y
+          sudo apt-get install -y tox pandoc
+
+      - name: Checking links
+        run: |
+          echo "---------------------------------------------------------------------------------------"
+          echo "---------------------------------- Checking links --------------------------------------"
+          echo "---------------------------------------------------------------------------------------"
+          tox -e docs-linkcheck
+          echo "Checking links was successful"
+          
+      - name: Building Documentation in html
+        run: |
+          echo "---------------------------------------------------------------------------------------"
+          echo "---------------------------------- Building html --------------------------------------"
+          echo "---------------------------------------------------------------------------------------"
+          tox -e docs
+          echo "Building html was successful!"
+          
+      - name: Store html build result
+        uses: actions/upload-artifact@v4
+
+        with:
+          name: documentation-html
+          path: docs/_build
+          if-no-files-found: warn
