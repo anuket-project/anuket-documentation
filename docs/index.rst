@@ -31,7 +31,7 @@ sub-project categories.
 Anuket specifications
 ~~~~~~~~~~~~~~~~~~~~~
 
-:doc:`Anuket Specifications <cntt:index>` provide reference specifications for cloud infrastructures and their
+:doc:`Anuket Specifications <anuket-specifications:index>` provide reference specifications for cloud infrastructures and their
 workloads. The specifications are organized to the following documents:
 
 * Reference Model (RM) - a technology independent specification of cloud infrastructures for telecom workloads
@@ -48,25 +48,6 @@ workloads. The specifications are organized to the following documents:
 * Reference Implementation based on RA2 specifications (RI2) - a blueprint to build a Kubernetes container orchestration
   platform based on the RA2 specificcations.
 
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-
-   release/installation.introduction
-   release/userguide.introduction
-   release/release-notes
-
-Implementation projects
-~~~~~~~~~~~~~~~~~~~~~~~
-
-Implementation projects address specific needs in the cloud technology relevant for the community and provide a
-reuseable implementation. The implementation projects have their release notes, installation and user guides in the
-aggregated documentation set referred here:
-
-- :doc:`Installation Introduction<release/installation.introduction>`
-- :doc:`User Guide and Configuration Guide<release/userguide.introduction>`
-- :doc:`Release Notes<release/release-notes>`
-
 Testing projects and frameworks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -76,18 +57,6 @@ and frameworks have their release notes, installation and user guides in the agg
 
 - :doc:`Installation Introduction<release/installation.introduction>`
 - :doc:`User Guide and Configuration Guide<release/userguide.introduction>`
-- :doc:`Release Notes<release/release-notes>`
-
-Integration projects
-~~~~~~~~~~~~~~~~~~~~
-
-The integration projects integrate OpenStack and Kubernetes based cloud infrastructures based on the blueprints of RI1
-and RI2. The integration projects have their release notes, installation and user guides in the aggregated documentation
-set referred here:
-
-- :doc:`Installation Introduction<release/installation.introduction>`
-- :doc:`User Guide and Configuration Guide<release/userguide.introduction>`
-- :doc:`Release Notes<release/release-notes>`
 
 Documentation for Anuket contributors
 -------------------------------------
@@ -99,15 +68,6 @@ Contribution guide for the documentation
    :maxdepth: 1
 
    how-to-use-docs/index
-
-Software and hardware infrastructure guide
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. toctree::
-   :maxdepth: 1
-
-   infrastructure/overview
-   infrastructure/ci
 
 Glossary
 --------

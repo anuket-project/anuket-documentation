@@ -43,18 +43,10 @@ The `Anuket developer wiki  <http://wiki.anuket.io>`_ might contain more details
 Configuration guides
 ====================
 
-* :ref:`Barometer Configuration Guide <barometer-configguide>`
-* :ref:`CIRV-SDV Configuration Guide <cirv-sdv-configguide>`
-* :ref:`Kuberef Configuration Guide <kuberef-configguide>`
-* :doc:`ViNePERF Configuration Guide <vineperf:testing/user/configguide/index>`
 * :doc:`Functest Configuration Guide <functest:testing/user/configguide/index>`
 
 User guides
 ===========
 
-* :ref:`Barometer User Guide <barometer-userguide>`
-* :ref:`CIRV-SDV User Guide <cirv-sdv-userguide>`
-* :ref:`Kuberef User Guide <kuberef-userguide>`
-* :doc:`ViNePerf Configuration and User Guide <vineperf:testing/user/configguide/index>`
 * :doc:`Functest User Guide <functest:testing/user/userguide/index>`
 
