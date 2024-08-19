@@ -11,7 +11,7 @@ Anuket Development Glossary
 Contents
 ========
 
-This glossary provides a common definition of phrases and words commonly used in the OPNFV project, and its successor, the Anuket Project.
+This glossary provides a common definition of phrases and words commonly used in the Anuket project.
 
 --------
 
@@ -21,7 +21,8 @@ A
 
   Anuket
 
-    The ancient Egyptian Goddess Anuket was a personification of the Nile as “Nourisher of the Fields”, and the name for the combined OPNFV and CNTT project.
+    The ancient Egyptian Goddess Anuket was a personification of the Nile as “Nourisher of the Fields”, and the name for
+    the combined OPNFV and CNTT project.
 
   Arno
 
@@ -167,7 +168,8 @@ L
 
   Lakelse
 
-    A river in Britsh Columbia, Canada (name derived from the Coast Tsimshian language word "LaxGyels"), and the name of the Second Anuket (OPNFV+CNTT) Release.
+    A river in Britsh Columbia, Canada (name derived from the Coast Tsimshian language word "LaxGyels"), and the name of
+    the Second Anuket (OPNFV+CNTT) Release.
 
 --------
 
@@ -177,7 +179,8 @@ N
 
   NFV
 
-    Network Functions Virtualisation, an industry initiative to leverage virtualisation technologies in carrier networks.
+    Network Functions Virtualisation, an industry initiative to leverage virtualisation technologies in carrier
+    networks.
 
   NFVI
 
