@@ -259,7 +259,7 @@ Reference Documentation
 
 `[TST4]`_: Testcase catalog
 
-.. _`[TST1]`: http://www.anuket.org
+.. _`[TST1]`: http://www.anuket.io
 .. _`[TST2]`: https://git.opnfv.org/releng-testresults
 .. _`[TST3]`: http://artifacts.opnfv.org/releng/docs/testapi.html
 .. _`[TST4]`: http://testresults.opnfv.org/testing/index.html#!/select/visual
