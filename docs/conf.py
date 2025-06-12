@@ -29,9 +29,7 @@ release = 'Latest'
 branch = 'latest'
 
 intersphinx_mapping = {}
-intersphinx_mapping['barometer'] = ('https://docs.anuket.io/projects/barometer/en/%s' % branch, None)
 intersphinx_mapping['functest'] = ('https://opnfvdocsdemo.readthedocs.io/projects/functest/en/%s' % branch, None)
-intersphinx_mapping['kuberef'] = ('https://docs.anuket.io/projects/kuberef/en/%s' % branch, None)
 intersphinx_mapping['releng'] = ('https://docs.anuket.io/projects/releng/en/latest', None)
 intersphinx_mapping['releng-xci'] = ('https://opnfv-releng-xci.readthedocs.io/en/%s' % branch, None)
 intersphinx_mapping['anuket-specifications'] = ('https://docs.anuket.io/projects/anuket-specifications/en/%s' % branch, None)

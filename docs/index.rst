@@ -39,14 +39,10 @@ workloads. The specifications are organized to the following documents:
   infrastructure based on the requirements of the Reference Model 
 * Reference Conformance (RC1) for RA1 based Implementations - an automatic conformance testing framework to test RA1
   conformance of OpenStack cloud infrastrucutres and their workloads
-* Reference Implementation based on RA1 specifications (RI1) - a blueprint to build an OpenStack cloud based on the
-  requirements of the RA1 specifications
 * Reference Architecture (RA2) for Kubernetes based cloud infrastructure - a specification of a Kubernetes container
   orchestration platform based on the requirements of the Reference Model
 * Reference Conformance (RC2) for RA2 based Implementations - an automatic conformance testing framework to test RA2
   conformance of OpenStack cloud infrastrucutres and their workloads
-* Reference Implementation based on RA2 specifications (RI2) - a blueprint to build a Kubernetes container orchestration
-  platform based on the RA2 specificcations.
 
 Testing projects and frameworks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
